@@ -1,0 +1,132 @@
+body {
+	font-family: sans-serif;
+	background: #e0e0e0;
+}
+
+.tests {
+	display: flex;
+	flex-wrap: wrap;
+	padding-top: 1rem;
+}
+
+.tests .testcase {
+	flex: 0 1 47%;
+	margin-left:  1rem;
+	margin-right: 1rem;
+}
+
+.testcase blockquote,
+.testcase svg,
+.testcase .img-text {
+	color: #333333;
+	border: 1px solid black;
+	margin-bottom: 1rem;
+}
+
+.testcase h1 {
+	font-weight: bold;
+	font-size: 1.1rem;
+	margin: 2rem 0 1rem;
+}
+
+.testcase blockquote {
+	padding: 2rem 3rem;
+	width: 20rem;
+}
+
+.testcase footer {
+	margin-top: 1rem;
+}
+
+.testcase-1 blockquote {
+	background-color: white;
+}
+
+.testcase-3 blockquote {
+	background-image: url(white.png);
+	background-color: black;
+}
+
+.testcase-4 svg {
+	background-color: black;
+	width: 26rem;
+}
+
+.testcase-5 .img-text {
+	height: 10rem;
+	background-color: white;
+}
+
+.testcase-6 .img-text {
+	height: 10rem;
+	background-color: black;
+}
+
+.testcase-7 blockquote {
+	background-color: white;
+	position: relative;
+}
+
+.testcase-7 blockquote .absbg {
+	position: absolute;
+	background-color: #090909;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 0;
+}
+
+.testcase-7 blockquote p,
+.testcase-7 blockquote footer {
+	position: relative;
+	z-index: 1;
+}
+
+.testcase-8 blockquote {
+	background-color: white;
+	color: black;
+
+	text-shadow: 1px 1px black,
+	             2px 1px black,
+	             3px 1px black,
+	             4px 1px black,
+	             5px 1px black,
+	             -1px 1px black,
+	             -2px 1px black,
+	             -3px 1px black,
+	             -4px 1px black,
+	             -5px 1px black,
+	             1px 2px black,
+	             2px 2px black,
+	             3px 2px black,
+	             4px 2px black,
+	             5px 2px black,
+	             -1px -2px black,
+	             -2px -2px black,
+	             -3px -2px black,
+	             -4px -2px black,
+	             -5px -2px black;
+}
+
+.wcag-success span::before,
+.wcag-fail span::before {
+	content: "WCAG 2.1 Results: ";
+}
+
+.wcag-success span::after {
+	content: "SUCCESS";
+	font-weight: bold;
+}
+
+.wcag-fail span::after {
+	content: "FAIL";
+	font-weight: bold;
+}
+
+.wcag-success::after,
+.wcag-fail::after {
+	content:  "(Should be identified as \"Regular Sized Text\")";
+	display: block;
+	margin-top: 0.2rem;
+}

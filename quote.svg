@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="418"
+   height="162"
+   viewBox="0 0 110.59583 42.862501"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   sodipodi:docname="quote.svg">
+  <defs
+     id="defs2">
+    <rect
+       x="16.492931"
+       y="9.1712077"
+       width="70.452665"
+       height="18.580452"
+       id="rect12" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="228.59004"
+     inkscape:cy="165.32754"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1662"
+     inkscape:window-height="1212"
+     inkscape:window-x="26"
+     inkscape:window-y="23"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Laag 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       id="text10"
+       style="fill:black;fill-opacity:1;line-height:1.25;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:10.5833333px;white-space:pre;shape-inside:url(#rect12);" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;white-space:pre;inline-size:80.6732;stroke-width:0.264583"
+       x="9.027133"
+       y="6.3899341"
+       id="text18"
+       transform="translate(8.4734584,3.783453)"><tspan
+         x="9.027133"
+         y="6.3899341"><tspan
+           style="stroke-width:0.264583">&quot;The power of the Web is in its </tspan></tspan><tspan
+         x="9.027133"
+         y="11.681596"><tspan
+           style="stroke-width:0.264583">universality. Access by everyone </tspan></tspan><tspan
+         x="9.027133"
+         y="16.973258"><tspan
+           style="stroke-width:0.264583">regardless of disability is an essential </tspan></tspan><tspan
+         x="9.027133"
+         y="22.264921"><tspan
+           style="stroke-width:0.264583">aspect.&quot;
+</tspan></tspan><tspan
+         x="9.027133"
+         y="27.556584"><tspan
+           style="stroke-width:0.264583">
+</tspan></tspan><tspan
+         x="9.027133"
+         y="32.848246"><tspan
+           style="stroke-width:0.264583">Tim Berners-Lee</tspan></tspan></text>
+  </g>
+</svg>
