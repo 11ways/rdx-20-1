@@ -4,7 +4,7 @@
 		<link rel="stylesheet" href="normalize.css">
 		<link rel="stylesheet" href="style.css">
 	</head>
-	<body>
+	<body class="large">
 		<div class="tests">
 			<div class="testcase testcase-1">
 				<h1>Test case 1</h1>
@@ -42,76 +42,19 @@
 				<!-- Gray text on a black background color, but with a white background image -->
 			</div>
 
-			<div class="testcase testcase-4">
+			<div class="testcase testcase-4x">
 				<h1>Test case 4</h1>
-				<svg viewBox="79 2 112 49">
-					<rect width=300 height=300 style="fill:white"></rect>
-					<text
-						xml:space="preserve"
-						id="text10"
-						style="fill:#333;fill-opacity:1;line-height:1.25;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:10.5833333px;white-space:pre;shape-inside:url(#rect12);" />
-					<text
-						xml:space="preserve"
-						style="font-size:4.23333px;line-height:1.25;font-family:sans-serif;white-space:pre;inline-size:80.6732;stroke-width:0.264583"
-						x="9.027133"
-						y="6.3899341"
-						id="text18"
-						transform="translate(8.4734584,3.783453)">
-						<tspan
-							x="9.027133"
-							y="6.3899341">
-							<tspan
-								style="stroke-width:0.264583">&quot;The power of the Web is in its </tspan>
-						</tspan>
-						<tspan
-							x="9.027133"
-							y="11.681596">
-							<tspan
-								style="stroke-width:0.264583">universality. Access by everyone </tspan>
-						</tspan>
-						<tspan
-							x="9.027133"
-							y="16.973258">
-							<tspan
-								style="stroke-width:0.264583">regardless of disability is an essential </tspan>
-						</tspan>
-						<tspan
-							x="9.027133"
-							y="22.264921">
-							<tspan
-								style="stroke-width:0.264583">aspect.&quot;</tspan>
-						</tspan>
-						<tspan
-							x="9.027133"
-							y="27.556584">
-							<tspan
-								style="stroke-width:0.264583"></tspan>
-						</tspan>
-						<tspan
-							x="9.027133"
-							y="32.848246">
-							<tspan
-								style="stroke-width:0.264583">Tim Berners-Lee</tspan>
-						</tspan>
-					</text>
-				</svg>
+				<blockquote>
+					<p>
+						"The power of the Web is in its universality. Access by everyone regardless of disability is an essential aspect."
+					</p>
+					<footer>Tim Berners-Lee</footer>
+				</blockquote>
 				<p class="wcag-success"><span></span></p>
-				<!-- Black SVG text on a black background color, but with a white <rect> background in the SVG -->
+				<!-- Small black text on a white background, but it's zoomed in -->
 			</div>
 
-			<div class="testcase testcase-5">
-				<h1>Test case 5</h1>
-				<img class="img-text" src="text.png">
-				<p class="wcag-success"><span></span></p>
-				<!-- Transparent image with dark gray text on it, with white background styling -->
-			</div>
-
-			<div class="testcase testcase-6">
-				<h1>Test case 6</h1>
-				<img class="img-text" src="text-whitebg.png">
-				<p class="wcag-success"><span></span></p>
-				<!-- White image with dark gray text on it, with black background styling -->
-			</div>
+			
 
 			<div class="testcase testcase-7">
 				<h1>Test case 7</h1>
@@ -161,7 +104,7 @@
 					</p>
 					<footer>Tim Berners-Lee</footer>
 				</blockquote>
-				<p class="wcag-fail"><span></span></p>
+				<p class="wcag-success"><span></span></p>
 				<!-- White text on a white background, but with black outline making it too hard to read -->
 			</div>
 		</div>

@@ -3,6 +3,10 @@ body {
 	background: #e0e0e0;
 }
 
+body.large {
+	font-size: 24px;
+}
+
 .tests {
 	display: flex;
 	flex-wrap: wrap;
@@ -20,6 +24,11 @@ body {
 .testcase .img-text {
 	color: #333333;
 	border: 1px solid black;
+
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 40px;
+	margin-inline-end: 40px;
 	margin-bottom: 1rem;
 }
 
@@ -50,6 +59,7 @@ body {
 .testcase-4 svg {
 	background-color: black;
 	width: 26rem;
+	margin-top: 0;
 }
 
 .testcase-5 .img-text {
@@ -109,6 +119,72 @@ body {
 	             -5px -2px black;
 }
 
+.testcase-9 blockquote {
+	background-color: white;
+	color: white;
+
+	text-shadow: 2px 2px 0 black,
+	             2px -2px 0 black,
+	             -2px 2px 0 black,
+	             -2px -2px 0 black,
+	             2px 0px 0 black,
+	             0px 2px 0 black,
+	             -2px 0px 0 black,
+	             0px -2px 0 black,
+
+	             1px 1px 0 black,
+	             1px -1px 0 black,
+	             -1px 1px 0 black,
+	             -1px -1px 0 black,
+	             1px 0px 0 black,
+	             0px 1px 0 black,
+	             -1px 0px 0 black,
+	             0px -1px 0 black,
+
+	             3px 3px 1px black,
+	             3px -3px 1px black,
+	             -3px 3px 1px black,
+	             -3px -3px 1px black,
+	             3px 0px 1px black,
+	             0px 3px 1px black,
+	             -3px 0px 1px black,
+	             0px -3px 1px black,
+
+	             4px 4px 1px black,
+	             4px -4px 1px black,
+	             -4px 4px 1px black,
+	             -4px -4px 1px black,
+	             4px 0px 1px black,
+	             0px 4px 1px black,
+	             -4px 0px 1px black,
+	             0px -4px 1px black;
+}
+
+.testcase-10 blockquote {
+	background-color: white;
+	color: white;
+
+	-webkit-text-stroke: 7px black;
+}
+
+body.large .testcase-10 blockquote {
+	-webkit-text-stroke: 2px black;
+}
+
+.testcase-4x blockquote {
+	font-size: 4px;
+	transform: scale(6);
+	width: 13em;
+	padding: 1em 2em;
+	margin-bottom: 9rem;
+	margin-left: 12rem;
+	margin-top: 8rem;
+}
+
+.testcase-4x footer {
+	margin-top: 1em;
+}
+
 .wcag-success span::before,
 .wcag-fail span::before {
 	content: "WCAG 2.1 Results: ";
@@ -129,4 +205,9 @@ body {
 	content:  "(Should be identified as \"Regular Sized Text\")";
 	display: block;
 	margin-top: 0.2rem;
+}
+
+body.large .wcag-success::after,
+body.large .wcag-fail::after {
+	content:  "(Should be identified as \"Large Sized Text\")";
 }
