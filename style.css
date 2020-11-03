@@ -211,3 +211,10 @@ body.large .wcag-success::after,
 body.large .wcag-fail::after {
 	content:  "(Should be identified as \"Large Sized Text\")";
 }
+
+p.comment {
+	max-width:  30rem;
+	font-style: italic;
+	border-left: 2px solid gray;
+	padding-left:  0.5em;
+}
