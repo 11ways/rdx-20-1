@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<title>Sample UI Components</title>
+	</head>
+<body>
+<h1>Sample UI Components</h1>
+
+<p>(RVG, 15-12-20, Version 1)</p>
+
+<h2>Success Criterion&nbsp;<a href="https://www.w3.org/TR/WCAG21/#non-text-contrast">1.4.11 Non-text Contrast</a>&nbsp;(Level AA)</h2>
+
+<p>The visual&nbsp;<a href="https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html#dfn-presentation">presentation</a>&nbsp;of the following have a&nbsp;<a href="https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html#dfn-contrast-ratio">contrast ratio</a>&nbsp;of at least 3:1 against adjacent color(s):</p>
+
+<ul>
+	<li><strong>User Interface Components</strong>; visual information required to identify&nbsp;<a href="https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html#dfn-user-interface-component">user interface components</a>&nbsp;and&nbsp;<a href="https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html#dfn-state">states</a>, except for inactive components or where the appearance of the component is determined by the user agent and not modified by the author;</li>
+	<li><strong>Graphical Objects</strong>; Parts of graphics required to understand the content, except when a particular presentation of graphics is&nbsp;<a href="https://www.w3.org/WAI/WCAG21/Understanding/non-text-contrast.html#dfn-essential">essential</a>&nbsp;to the information being conveyed.</li>
+</ul>
+
+<h2>Sample 1</h2>
+
+<figure><img src="sample-1.png" alt="Screenshot"/><figcaption>Screenshot</figcaption></figure>
+
+<ul>
+	<li>Type: <strong>Search field</strong></li>
+	<li>Expected outcome (WCAG 1.4.11): <strong>FAIL</strong></li>
+	<li>Source: <a href="https://www.antigifcentrum.be/evenementen">https://www.antigifcentrum.be/evenementen</a></li>
+	<li>Selector Path: <code>#edit-k</code></li>
+</ul>
+
+<h2>Sample 2</h2>
+
+<figure><img src="sample-2.png" alt="Screenshot"/><figcaption>Screenshot</figcaption></figure>
+
+<ul>
+	<li>Type: <strong>Submit button</strong></li>
+	<li>Expected outcome (WCAG 1.4.11): <strong>FAIL</strong></li>
+	<li>Source: <a href="https://www.antigifcentrum.be/evenementen">https://www.antigifcentrum.be/evenementen</a></li>
+	<li>Selector Path: <code>#edit-submit-search</code></li>
+</ul>
+
+<h2>Sample 3</h2>
+
+<figure><img src="sample-3.png" alt="Screenshot"/><figcaption>Screenshot</figcaption></figure>
+
+<ul>
+	<li>Type: <strong>Pagination widget</strong></li>
+	<li>Expected outcome (WCAG 1.4.11): <strong>FAIL</strong></li>
+	<li>Source: <a href="https://www.antigifcentrum.be/evenementen">https://www.antigifcentrum.be/evenementen</a></li>
+	<li>Selector Path: <code>#highlights &gt; div.view.view-nieuws.view-id-nieuws.view-display-id-block.view-dom-id-a1950f9a5d19c2090c16fa0298ca26b2 &gt; div.view-content &gt; div &gt; div &gt; div.bx-controls.bx-has-pager.bx-has-controls-direction &gt; div.bx-pager.bx-default-pager</code></li>
+</ul>
+
+<h2>Sample 4</h2>
+
+<figure><img src="sample-4.png" alt="Screenshot"/><figcaption>Screenshot</figcaption></figure>
+
+<ul>
+	<li>Type: <strong>Breadcrumb trail</strong> (looks like Pill toggle)</li>
+	<li>Expected outcome (WCAG 1.4.11): <strong>PASS</strong></li>
+	<li>Source: <a href="https://www.antigifcentrum.be/geneesmiddelen/anticonceptiepil">https://www.antigifcentrum.be/geneesmiddelen/anticonceptiepil</a></li>
+	<li>Selector Path: <code>#content &gt; div.clearfix &gt; div.region-content &gt; div.clearfix &gt; div</code></li>
+</ul>
+
+<h2>Sample 5</h2>
+
+<figure><img src="sample-5.png" alt="Screenshot"/><figcaption>Screenshot</figcaption></figure>
+
+<ul>
+	<li>Type: <strong>Checkbox group</strong> (custom styled)</li>
+	<li>Expected outcome (WCAG 1.4.11): <strong>FAIL</strong></li>
+	<li>Source: <a href="https://www.apotheek.be/nl/Pages/default.aspx">https://www.apotheek.be/nl/Pages/default.aspx</a></li>
+	<li>Selector Path: <code>#CybotCookiebotDialogBodyLevelButtonsSelectPane</code></li>
+</ul>
+
+<h2>Sample 6</h2>
+
+<figure><img src="sample-6.png" alt="Screenshot"/><figcaption>Screenshot</figcaption></figure>
+
+<ul>
+	<li>Type: <strong>Button</strong> (disguised as a link)</li>
+	<li>Expected outcome (WCAG 1.4.11): <strong>PASS</strong></li>
+	<li>Source: <a href="https://www.apotheek.be/nl/Pages/default.aspx">https://www.apotheek.be/nl/Pages/default.aspx</a></li>
+	<li>Selector Path: <code>#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowallSelection</code></li>
+</ul>
+
+<h2>Sample 7</h2>
+
+<figure><img src="sample-7.png" alt="Screenshot"/><figcaption>Screenshot</figcaption></figure>
+
+<ul>
+	<li>Type: <strong>Search field</strong></li>
+	<li>Expected outcome (WCAG 1.4.11): <strong>FAIL</strong> </li>
+	<li>Source: <a href="https://www.apotheek.be/nl/Pages/default.aspx">https://www.apotheek.be/nl/Pages/default.aspx</a></li>
+	<li>Selector Path: <code>#ctl00_ctl09_ctl02_ctl00_ctl47_ctl01_search</code></li>
+</ul>
+
+<h2>Sample 8</h2>
+
+<figure><img src="sample-8.png" alt="Screenshot"/><figcaption>Screenshot</figcaption></figure>
+
+<ul>
+	<li>Type: <strong>Checkbox collection</strong></li>
+	<li>Expected outcome (WCAG 1.4.11): <strong>FAIL</strong> (unchecked checkbox not identifiable)</li>
+	<li>Source: <a href="https://www.apotheek.be/nl/Pages/default.aspx">https://www.apotheek.be/nl/Pages/default.aspx</a></li>
+	<li>Selector Path: <code>#find-box &gt; div &gt; div&#39;
+		</code></li>
+</ul>
+
+<h2>Sample 9</h2>
+
+<figure><img src="sample-9.png" alt="Screenshot"/><figcaption>Screenshot</figcaption></figure>
+
+<ul>
+	<li>Type: <strong>Search field</strong></li>
+	<li>Expected outcome (WCAG 1.4.11): <strong>FAIL</strong> (heading, placeholder)</li>
+	<li>Source: <a href="https://www.fsma.be/nl">https://www.fsma.be/nl</a></li>
+	<li>Selector Path: <code>#views-exposed-form-search-page-consumers &gt; div &gt; div</code></li>
+</ul>
+
+<h2>Sample 10</h2>
+
+<figure><img src="sample-10.png" alt="Screenshot"/><figcaption>Screenshot</figcaption></figure>
+
+<ul>
+	<li>Type: <strong>Pagination widget</strong></li>
+	<li>Expected outcome (WCAG 1.4.11): <strong>FAIL</strong></li>
+	<li>Source: <a href="https://www.fsma.be/nl">https://www.fsma.be/nl</a></li>
+	<li>Selector Path: <code>#block-views-news_articles-block &gt; div &gt; ol</code></li>
+</ul>
+
+<h2>Sample 11</h2>
+
+<figure><img src="sample-11.png" alt="Screenshot"/><figcaption>Screenshot</figcaption></figure>
+
+<ul>
+	<li>Type: <strong>Search field</strong></li>
+	<li>Expected outcome (WCAG 1.4.11): <strong>FAIL</strong></li>
+	<li>Source: <a href="https://www.fsma.be/nl">https://www.fsma.be/nl</a></li>
+	<li>Selector Path: <code>#edit-search-api-views-fulltext-wrapper</code></li>
+</ul>
+
+<h2>Sample 12</h2>
+
+<figure><img src="sample-12.png" alt="Screenshot"/><figcaption>Screenshot</figcaption></figure>
+
+<ul>
+	<li>Type: <strong>Search button</strong></li>
+	<li>Expected outcome (WCAG 1.4.11): <strong>PASS</strong></li>
+	<li>Source: <a href="https://www.fsma.be/nl">https://www.fsma.be/nl</a></li>
+	<li>Selector Path: <code>#edit-submit-search-page</code></li>
+</ul>
+
+<h2>Sample 13</h2>
+
+<figure><img src="sample-13.png" alt="Screenshot"/><figcaption>Screenshot</figcaption></figure>
+
+<ul>
+	<li>Type: <strong>Multiple text inputs</strong> (traditional text inputs, custom styled)</li>
+	<li>Expected outcome (WCAG 1.4.11): <strong>FAIL</strong> (very close call)</li>
+	<li>Source: <a href="https://www.uniquelyphenomenal.be/en/contact">https://www.uniquelyphenomenal.be/en/contact</a></li>
+	<li>Selector Path: <code>#contact &gt; div &gt; div.content &gt; form</code></li>
+</ul>
+
+<h2>Sample 14</h2>
+
+<figure><img src="sample-14.png" alt="Screenshot"/><figcaption>Screenshot</figcaption></figure>
+
+<ul>
+	<li>Type: <strong>Submit button</strong> (traditional text inputs, custom styled)</li>
+	<li>Expected outcome (WCAG 1.4.11): <strong>FAIL</strong> (very close call)</li>
+	<li>Source: <a href="https://www.uniquelyphenomenal.be/en/contact">https://www.uniquelyphenomenal.be/en/contact</a></li>
+	<li>Selector Path: <code>#contact &gt; div &gt; div.content &gt; form &gt; div.formelement.align-right &gt; button</code></li>
+</ul>
+
+<h2>Sample 15</h2>
+
+<figure><img src="sample-15.png" alt="Screenshot"/><figcaption>Screenshot</figcaption></figure>
+
+<ul>
+	<li>Type: <strong>Combobox</strong></li>
+	<li>Expected outcome (WCAG 1.4.11): <strong>FAIL</strong> (very close call)</li>
+	<li>Source: <a href="https://belnet.be/en/form/contact">https://belnet.be/en/form/contact</a></li>
+	<li>Selector Path: <code>#edit-name-title-select</code></li>
+</ul>
+
+<h2>Sample 16</h2>
+
+<figure><img src="sample-16.png" alt="Screenshot"/><figcaption>Screenshot</figcaption></figure>
+
+<ul>
+	<li>Type: <strong>Radio Group</strong></li>
+	<li>Expected outcome (WCAG 1.4.11): <strong>FAIL</strong></li>
+	<li>Source: <a href="https://campagne.safeonweb.be/fr/testez-votre-sante-digitale">https://campagne.safeonweb.be/fr/testez-votre-sante-digitale</a></li>
+	<li>Selector Path: <code>#field_answers\.updates\.0_s5iz2iox8m &gt; div</code></li>
+</ul>
+
+</body>
+</html>
+
